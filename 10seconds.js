@@ -22,7 +22,7 @@
             result.textContent = i+0.001;
             }
         setTimeout(() => {
-            show();
+            progress();
             },1);
     });
 
