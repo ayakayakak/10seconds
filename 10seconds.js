@@ -17,6 +17,9 @@
         stop.className = "";
         result.className = "";
         result.textContent = "0.000";
+        setTimeout(() = > {
+            result.textContent = "0.001";
+            }, 1);
     });
 
     stop.addEventListener("click", function(){
