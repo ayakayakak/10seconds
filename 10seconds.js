@@ -17,9 +17,13 @@
         stop.className = "";
         result.className = "";
         result.textContent = "0.000";
-        setTimeout(function() {
-            result.textContent = "0.001";
-            }, 1);
+        let i = 0;
+        const show = () = > {
+            result.textContent = i++;
+            }
+        setTimeout(() => {
+            show();
+            },1000);
     });
 
     stop.addEventListener("click", function(){
