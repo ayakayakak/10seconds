@@ -18,7 +18,7 @@
         result.className = "";
         result.textContent = "0.000";
         let i = 0;
-        const show = () => {
+        const show = function(){
             result.textContent = i++;
             }
         setTimeout(() => {
