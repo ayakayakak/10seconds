@@ -17,9 +17,9 @@
         stop.className = "";
         result.className = "";
         result.textContent = "0.000";
-        let i = 0.001;
+        let i = 0;
         const progress = function(){
-            result.textContent = i+0.001;
+            result.textContent = i+0.001.toFixed(3);
             }
         setTimeout(() => {
             progress();
