@@ -19,11 +19,16 @@
         result.textContent = "0.000";
         let i = 0;
         const progress = function(){
-            result.textContent = i+0.001.toFixed(3);
-            }
-        setTimeout(() => {
+            result.textContent = i+0.001;
+            let tid = setTimeout(() => {
             progress();
             },1);
+            if (i > 1){
+                 clearTimeout(tid);
+                }
+        }
+        progress();
+            
     });
 
     stop.addEventListener("click", function(){
