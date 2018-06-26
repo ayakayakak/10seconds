@@ -17,7 +17,7 @@
         stop.className = "";
         result.className = "";
         result.textContent = "0.000";
-        setTimeout(() = > {
+        setTimeout(function() {
             result.textContent = "0.001";
             }, 1);
     });
