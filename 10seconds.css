@@ -45,7 +45,7 @@
 }
 
 @media (max-width : 670px){
-    .container{
+    body{
         width: 100%;
     }
 }
