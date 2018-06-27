@@ -43,3 +43,9 @@
     margin-top: 3px;
     box-shadow: 0 3px #ccc;
 }
+
+@media (max-width : 670px){
+    .container{
+        width: 100%;
+    }
+}
