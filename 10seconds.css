@@ -23,10 +23,12 @@
 
 #start{
     float: left;
+    user-select: none;
 }
 
 #stop{
     float: right;
+    user-select: none;
 }
 
 #start, #stop{
